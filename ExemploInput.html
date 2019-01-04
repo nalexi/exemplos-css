@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exemplo Input</title>
+	<link rel="stylesheet" type="text/css" href="Exemplo Input.css">
+	<link rel="stylesheet" type="text/css" href="helper.css">
+
+</head>
+<body>
+	<div class="formulario">
+		<h3 class="centralizar">Cadastro Colaborador</h3>
+	<div>
+		<label class="form-label" for="funcionario-nome">Nome <span class="required">*</span></label>
+		<input class="form-input" type="text" id="funcionario-nome" name="nome">
+	</div>
+
+	<div>
+		<label class="form-label" for="funcionario-idade ">Idade</label>
+		<input class="form-input" type="number" id="funcionario-idade" name="idade">	
+	</div>
+
+	<div>
+		<label for="data-de-nascimento">Data de Nascimento</label>
+		<input class="form-input" type="date" id="data-de-nascimento" name="nascimento">
+	</div>
+	<div>
+		<label class="form-label" for="funcionario-email">Email</label>
+		<input class="form-input" type="email" id="funcionario-email" name="email">
+	</div>
+	<div>
+		<label class="form-label">Sexo</label>	
+		<input type="radio" id="funcionario-sexo-masculino" name="sexo" value="0">
+		<label for="funcionario-sexo-masculino">Macho</label>
+		<input type="radio" id="funcionario-sexo-femea" name="sexo" value="1">
+		<label for="funcionario-sexo-femea">Femea</label>
+	</div>
+	<div>
+		<input type="checkbox" id="funcionario-pacto" name="pacto" value="tem" >
+		<label for="funcionario-pacto" >Pacto com devil</label>
+	</div>
+	<div>
+		<label for="funcionario-categoria">Categoria</label>
+		<select class="form-input" id="funcionario-categoria" name="categoria">
+			<option disabled="disabled" selected="selected">Selecione categoria</option>
+			<option value="elfo">Elfo</option>
+			<option value="mago">Mago</option>
+			<option value="Orc">orc</option>
+		</select>
+	</div>
+	<div>
+		<label for="funcionario-observacao">Observação</label>
+		<textarea class="form-textarea" id="funcionario-observacao" name="observacao"></textarea>
+	</div>
+	<div>
+		<label class="form-label" for="funcionario-senha">Senha</label>
+		<input class="form-input" type="password" id="funcionario-senha" name="senha">
+	</div>
+	<button class="botao-salvar">Salvar</button>
+	</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.primeira {
+	float: left;
+	width: 50%;
+	height: 400px;
+	background-color: red; 
+}
+
+.segundo {
+	float: left;
+	width: 30%;
+	height: 400px;
+	background-color: blue;
+}
+
+.terceiro {
+	float: left;
+	width: 10%;
+	height: 400px;
+	background-color: green;
+}
+
+.quarto {
+	clear: both;
+	width: 10%;
+	height: 400px;
+	background-color: pink;
+}

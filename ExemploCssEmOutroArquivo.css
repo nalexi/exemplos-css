@@ -1,0 +1,82 @@
+body{
+	background-color: #949494;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;  
+	//margin: 10px 9px 10px 9px;
+	//margin: 10px 9px;
+
+	//margin: 25px 25px;
+	//margin: 25px;
+
+	//margin: 10px 0;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.titulo {
+	color: #148250;
+}
+
+.titulo:hover {
+	color: #8e1519;
+	cursor: pointer;
+}
+
+.texto-com-margem {
+	margin-left: 10px;
+	background-color: red;
+	color: white;
+	padding-left: 10px;
+	height: 45px;
+	padding-top: 25px;
+}
+
+.sem-margem {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.meme {
+	background-color: blue;
+	margin-left: 0;
+	margin-right: 0;
+	font-family: 'Charm', cursive;
+}
+.as-arvores {
+	font-family: 'Staatliches', cursive;
+}
+
+.sei-la {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 30px;
+	text-decoration: underline;
+	text-decoration: overline;
+	text-transform: uppercase;
+	text-transform: capitalize;
+}
+
+.botao {
+	width: 100px;
+	height: 30px;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color: #1e9e38;
+	color: white;
+	border: none;
+	border-radius: 7px;
+}
+
+.botao:hover{
+	background-color: #13842a;
+	cursor: pointer;
+	color: red;
+}
+
+.botao:active{
+	color: blue;
+}
